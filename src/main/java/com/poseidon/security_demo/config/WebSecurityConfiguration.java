@@ -16,10 +16,10 @@ import org.springframework.security.config.annotation.web.builders.WebSecurity;
 public class WebSecurityConfiguration {
     private WebSecurity webSecurity;
     private Boolean debugEnable;
-    private List<SecurityConfigurer<Filter, WebSecurity>> webSecurityConfigurers;
+//    private List<SecurityConfigurer<Filter, WebSecurity>> webSecurityConfigurers;
 
-    @Bean(name = {"springSecurityFilterChain"})
-    public Filter springSecurityFilterChain() throws Exception {
-        boolean hasConfigurers = webSecurity != null &&
-    }
+//    @Bean(name = {"springSecurityFilterChain"})
+//    public Filter springSecurityFilterChain() throws Exception {
+//        boolean hasConfigurers = webSecurity != null &&
+//    }
 }
